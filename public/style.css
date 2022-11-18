@@ -73,6 +73,7 @@ h1 {
   padding: 8px 15px;
 }
 
+.main-link.active,
 .main-link:hover {
   color: cyan;
   box-shadow: 0 0 5px cyan;
@@ -109,6 +110,7 @@ h1 {
   border-bottom: 1px solid black;
 }
 
+.sub-ul li a.active,
 .sub-ul li a:hover {
   color: cyan;
   font-weight: bold;
