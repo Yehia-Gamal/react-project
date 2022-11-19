@@ -1,11 +1,11 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <div>
       <header className="hide-when-mobile">
-        <h1>CariZma</h1>
+        <Link to="/"><h1>CariZma</h1></Link>
         <ul className="flex">
           <li className="main-list">
             <NavLink className="main-link" to="/html">
